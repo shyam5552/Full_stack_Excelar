@@ -1,0 +1,175 @@
+Colors
+======
+1.color names
+2.Hexadecimal colors
+3.RGB function colors
+4.RGB function colors with alpa
+5.HSL function colors
+6.HSl functions colors with alpha
+
+
+1.color names
+--------------
+blue,red,green,orange..............
+
+2.Hexadecimal colors
+=====================
+
+        #R        G      B
+      00TOFF   00TOFF   00TOFF
+
+#FF0000=============>red
+#00FF00=============>green
+#0000FF=============>blue
+#ff00ff=============>Mixed color
+#000000=============>black
+#FFFFFF=============>white
+
+3.RGB function colors
+======================
+rgb(red,green,blue)
+
+red=====>0 to 255
+green===>0 to 255
+blue====>0 to 255
+
+rgb(255,0,0)==================>red
+rgb(0,255,0)==================>green
+rgb(0,0,255)==================>blue
+rgb(0,0,0)====================>black
+rgb(255,255,255)==============>white
+rgb(255,255,0)================>Mixed color
+
+4.RGB functions colors with alpha
+==================================
+
+rgb(red,green,blue,alpha)
+
+alpha==============>transparency/opacity
+
+0.0================>complete transparent
+1.0================>Non transparensent
+
+
+5.HSL function
+==============
+hsl(hue,saturation,lighteting)
+
+hue============>color=====>0 to 360
+saturation=====>grayshade=>0% to 100%
+lighteting=====>brightness=>0% to 100%
+
+0 is red
+120 is green
+240 is blue
+
+
+6.HSL function with alpha
+=========================
+hsl(hue,saturation,lighteting,alpha)
+
+hue============>color=====>0 to 360
+saturation=====>grayshade=>0% to 100%
+lighteting=====>brightness=>0% to 100%
+
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+
+		<h1 style="color:green">Hello how are you</h1>
+
+		<h1 style="color:#ff00ff">Excelr Edtech pvt limited</h1>
+
+		<h1 style="color:rgb(255,0,0)">add colors to your life</h1>
+
+		<h1 style="color:rgb(255,0,0,0.7)">add colors to your life</h1>
+
+		<h1 style="color:hsl(240,40%,40%)">never give up</h1>
+
+		<h1 style="color:hsl(240,40%,40%,0.5)">never give up</h1>
+
+
+	</body>
+</HTML>
+==========================================================================================================================
+Box Model
+=========
+1.The css box model is a container.
+2.Css box model is a collection of borders,margins,paddings and content.
+3.The purpose of box model is to apply border to content an space to content.
+
+content=====>The content of the box where text and image will appear.
+border======>A border that goes around the padding and content.
+padding======>The process of applying space inside the border and content.
+margin=======>The process of applying space outside the border and webpage.
+
+shorthand property padding:top right bottom left;
+shorthand property margin:top right bottom left;
+
+				padding-top:5%;
+				padding-bottom:5%;
+				padding-left:5%;
+				padding-right:5%;
+
+				margin-top:20%;
+				margin-bottom:20%;
+				margin-left:10%;
+				margin-right:10%;
+
+				margin:20% 10% 20% 10%;
+								
+				padding:5% 5% 5% 5%;
+
+<!DOCTYPE HTML>
+	<head>
+		<style>
+			h1{
+				border-style:solid;
+								
+				margin:20% 10% 20% 10%;
+								
+				padding:5% 5% 5% 5%;
+			  }
+		</style>
+	</head>
+	<body>
+		<h1>Box Model</h1>
+	</body>
+</HTML>
+=========================================================================================================================
+=========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

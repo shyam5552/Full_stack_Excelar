@@ -1,0 +1,183 @@
+Lists
+=====
+1.List is a collection of list items.
+2.There are 3 types of lists.They are
+    1.orderded list
+    2.unordered list
+    3.Definition list
+
+
+1.orderded list
+=================
+orderded list is used to create list items in particular order.
+orderded list is a paired tag
+Bydefault orderded list is numbers.
+
+syntax
+-------
+<ol></ol>
+
+list items
+----------
+list items are content
+list items is a paired tag
+
+syntax
+------
+<li></li>
+
+Attributes in Ordered list
+---------------------------
+1.Attribute is present in opening tag.
+2.Attribute is used to give additional information to the element.
+
+Ex
+--
+type="A/a/I"
+
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<ol type='I'>
+			<li>pawankalyan</li>
+			<li>MaheshBabu</li>
+			<li>NTR</li>
+			<li>prabhas</li>
+		</ol>
+	</body>
+</HTML>
+
+
+2.Unordered Lists
+==================
+Unorderded list is used to create list items in unparticular order.
+Unorderded list is a paired tag
+Bydefault unorderded list is dots.
+
+syntax
+------
+<ul>
+</ul>
+
+Attributes in unordered list
+-----------------------------
+type='circle/square/disc'
+
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<ul type='disc/square/circle'>
+			<li>keeravani</li>
+			<li>Anirudh</li>
+			<li>Ar rehman</li>
+			<li>Haris jayraj</li>
+
+		</ul>
+	</body>
+</HTML>
+
+
+3.Definition list
+=================
+1.Definition list is used to define term and definition.
+2.Definition list is a paired tag.
+
+syntax
+-------
+<dl>
+	<dt></dt>
+	<dd></dd>
+</dl>
+
+
+<dt></dt> is used to define term.
+<dd></dd> is used to define definition.
+
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<dl>
+			<dt>Bold Tag</dt>
+			<dd>Bold Tag is used to reprsent content in bold format</dd>
+	
+			<dt>Viratkohli</dt>
+			<dd>Viratkohli is a cricketer</dd>
+		</dl>
+	
+		
+	</body>
+</HTML>
+==========================================================================================================================
+<img> Tag
+==========
+1.<img> tag is a unpaired tag.
+2.<img> tag is used to represent images.
+
+syntax
+-------
+<img>
+
+Attributes in <img> tag
+------------------------
+src======>src is used to represent image path
+alt======>alt is used to give text if image is not there
+width====>width is used to set width for image
+height===>height is used to set height for image
+align====>align is used to set element in particular position
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+
+	<body>
+		<img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/348100/348106.jpg" alt="ViratKohli" width="300" height="300" align="right">
+	</body>
+</HTML>
+=========================================================================================================================
+<a></a> Tag
+============
+1.<a></a> Tag is a paired tag.
+2.<a></a> Tag is used to create hyper link(navigate from one page to another page).
+
+syntax
+-------
+<a></a>
+
+
+Attributes in <a></a> Tag
+==========================
+href       : href is used to set path.
+title      : title is used to set additional information when cursor moves on.
+target     : target is used to display the page in specific location.
+
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<a href="http://www.google.com" target="new" title="Arey babu click">Google</a>
+	</body>
+</HTML>
+======================================================================================================================
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,204 @@
+Background property in css
+==========================
+Background property is used to apply the properties to the webpage.
+properties can be color,image,attachment,position,repeation......
+
+
+1.background-color       :colorname/hexadecimal/rgb()/rgb() with alpha/hsl()/hsl() with alpha
+2.background-image       :url("path")
+3.background-repeat      :no-repeat/repeat (byfeault repeat)
+4.background-position    :left/right/center/left top/left bottom/right top/right bottom...
+5.background-attachment  :fixed/scroll (byfeault scroll)
+6.background-size        : 300px 300px;
+
+
+shorthand property
+==================
+background:color url repeat attachment position
+
+
+<DOCTYPE HTML>
+	<head>
+		<style>
+			body{
+				background-color:green;
+				background-image:url("https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/348100/348106.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				background-attachment:scroll;
+				background-size: 300px 300px;
+
+
+				
+			    }
+		</style>
+	</head>
+	<body>
+		<h1>Hello Good morning.......</h1>
+	</body>
+</HTML>
+=========================================================================================================================
+
+hover
+=====
+1.hover is a selector.
+2.hover is used to select elements and apply styles when we mouse over the elements.
+
+float
+=====
+float is used to combine/wrap the image and data.
+
+
+<DOCTYPE HTML>
+	<head>
+		<style>
+			h1:hover{
+				color:red
+			  }
+		</style>
+	</head>
+	<body>
+		<h1>Hello Good morning.......</h1>
+	</body>
+</HTML>
+
+<DOCTYPE HTML>
+	<head>
+		<style>
+			img{
+				float:left;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/348100/348106.jpg" width=300px height=300px>
+
+		<h2>virat is a goat.Virat Kohli was born on 5 November 1988 in Delhi into a Punjabi Hindu family. His father, Prem Nath Kohli, worked as a criminal lawyer, and his mother, Saroj Kohli, served as a housewife. He has an older brother, Vikas, and an older sister, Bhawna.</h2>
+	</body>
+</HTML>
+==========================================================================================================================
+
+positions
+=========
+The css positions property is used to set the position for an element.
+There are 5 types of positions.They are
+     1.static
+     2.relative
+     3.absolute
+     4.fixed
+     5.sticky
+
+
+1.static
+--------
+static is a default position.It is not affected by the top,bottom,left and right properties.
+
+2.relative
+----------
+relative position is used to set the position of its normal position.
+
+3.absolute
+----------
+absolute position is used to set the position of its parent position.
+
+4.fixed
+--------
+fixed is used to set the position fixed even we scroll the webpage.
+
+5.sticky
+--------
+sticky is used to set the position fixed even we scroll the webpage.
+
+Note:when it reaches to endpoint it will stick to endpoint.
+
+<DOCTYPE HTML>
+	<head>
+		<style>
+			h2{
+				position:relative;
+				left:20%;
+				top:5%
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			welcome to div tag
+			<h2>welcome to h2 tag</h2>
+		</div>
+		
+	</body>
+</HTML>
+=========================================================================================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Position</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #parent{
+            height: 500vh;
+            background-color: beige;
+            position: relative;
+        }
+        #d1{
+            height: 100px;
+            width: calc(100%-5px);
+            background-color: blue;
+            border: 5px solid cyan;
+            text-align: center;
+                      
+        }
+        #d2{
+            height: 100px;
+            width:calc(100%-5px);
+            background-color: red;
+            border: 5px solid pink;
+            text-align: center;
+            margin-top: 10px;
+            position: fixed;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="d1">
+            BOX 1
+        </div>
+        <div id="d2">
+            BOX 2
+        </div>
+    </div>
+</body>
+</html>
+=========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+css
+===
+1.css stands for cascading style sheets.
+2.The purpose of css is to apply styles to the html elements.
+3.style can be colors,background colors,text alignments,borders........
+4.css files can be saved by using  .css extension.
+5.css can be applied in 3 ways.They are
+           1.Inline css
+           2.Internal css
+           3.External css
+
+ 1.Inline css
+===============
+The process of applying styles to the html elements in particular/specific/single tag is called inline css.
+
+
+2.Internal css
+===============
+The process of applying styles to the html elements in head section by using style tag.
+
+
+ 3.External css
+================
+The process of applying styles to the html elements by using separate css file and link external css.
+
+<style></style> tag
+====================
+1.<style></style> tag is a paired tag
+2.<style></style> tag is used to apply styles to the html elements.
+
+<link> tag
+===========
+1.<link> tag is a unpaired tag.
+2.<link> tag is used to link css file with html file.
+
+
+<!DOCTYPE HTML>
+	<head>
+		<style>
+			h2{
+				color:blue;
+				background-color:orange
+			  }
+		</style>
+	</head>
+	<body>
+		<h1 style="color:red;background-color:green">welcome to excelr</h1>
+
+		<h2>Excelr will provide edtech services</h2>
+	</body>
+</HTML>
+
+<!DOCTYPE HTML>
+	<head>
+		<link rel="stylesheet" href="sample.css">
+	</head>
+	<body>
+		<h1>Bye Bye to students</h1>
+		
+	</body>
+</HTML>
+
+body{
+	background-color:red;
+    }
+h1{
+	color:blue;
+	background-color:green;
+  }
+
+==========================================================================================================================================================================================================================================================
+selectors
+=========
+1.selectors are used to select the html elements you want to style.
+2.There are 5 types of selectors.They are
+
+    1.Tag selectors============>(h1,h2,p...)============>based on tag name 
+    2.Id  selectors============>(#)=====================>based on id name and must be unique
+    3.class selectors==========>(.)=====================>based on class name and must not be unique
+    4.universal selectors======>(*)=====================>If we won't specify any styles can be applied to rest of the code.
+    5.group selectors==========>(h1,h2)=================>based on group of tags we have to mention and apply styles.
+
+<!DOCTYPE HTML>
+	<head>
+		<style>
+			h1{
+				color:red;
+			  }
+			#id1{
+				color:blue;
+			    }
+			.c1{
+				color:orange;
+			   }
+			*{
+                            color:green;
+                         }
+			u,i,b{
+				color:yellow;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Welcome to Excelr</h1>
+		<h1 id="id1">It provides edtech services</h1>
+		<p class="c1">Java Fullstack</p>
+		<h2 class="c1">Python Fullstack</h2>
+
+		<h4>placements provided</h4>
+		<h5>Internship provided</h5>
+
+		<u>Best students</u>
+		<i>Best infrasture</i>
+		<b>Best coloring</b>
+
+		
+	</body>
+</HTML>
+==============================================================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,266 @@
+<title></title> Tag
+=====================
+1.<title></title> Tag is a paired tag.
+2.<title></title> Tag is used to give title for webpage.
+3.<title></title> Tag is a subtag of <head></head> tag.
+
+<!DOCTYPE HTML>
+	<head>
+		<title>ExcelrClasses</title>
+	</head>
+	<body>
+		Hello Welcome
+	</body>
+</HTML>
+
+Basic Tags
+==========
+1.<pre></pre> Tag
+===================
+1.<pre></pre> Tag is a paired tag.
+2.<pre></pre> Tag is used to give special symbols.
+
+<!DOCTYPE HTML>
+	<head>
+		<title>ExcelrClasses</title>
+	</head>
+	<body>
+		<pre>
+		   virat          is a Goat
+		</pre>
+	</body>
+</HTML>
+
+2.<code></code> Tag
+====================
+1.<code></code> Tag is a paired tag.
+2.<code></code> Tag is used to print any programming language code.
+
+<!DOCTYPE HTML>
+	<head>
+		<title>ExcelrClasses</title>
+	</head>
+	<body>
+	   <code>
+		class Demo
+		{
+			public static void main(String[] args)
+			{
+				System.out.println("Happy weekend");
+			}
+		}
+	   </code>
+	</body>
+</HTML>
+
+3.<label></label> Tag
+======================
+1.<label></label> Tag is a paired tag.
+2.<label></label> Tag is used to give names for form elements.
+
+
+4.<filedset></fieldset> Tag
+============================
+1.<filedset></fieldset> Tag is a paired Tag.
+2.<filedset></fieldset> is used to group form elemnts.
+
+5.<legend></legend> Tag
+========================
+1.<legend></legend> Tag is a paired tag.
+2.<legend></legend> Tag is used to give name/title for filedset tag.
+
+<!DOCTYPE HTML>
+	<head>
+		<title>ExcelrClasses</title>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Personal Info</legend>
+				<label>Username</label>
+				<input type="text">
+				<label>Password</label>
+				<input type="password">
+
+			</fieldset>
+		</form>
+	</body>
+</HTML>
+
+
+6.<hr> Tag
+============
+1.<hr> Tag is a unpaired tag.
+2.<hr> Tag is used to give horizontal line.
+
+<!DOCTYPE HTML>
+	<head>
+		<title>ExcelrClasses</title>
+	</head>
+	<body>
+		<p>virat is a Goat</p>
+		<hr>
+		<p>Sachin is a Little Master</p>
+	</body>
+</HTML>
+
+7.<script></script> Tag
+========================
+<script></script> Tag is a paired tag.
+<script></script> Tag is used to write javascript code.
+
+8.<noscript></noscript> Tag
+============================
+<noscript></noscript> Tag is a paired tag.
+<noscript></noscript> Tag is used to check whether javscript code will supports or not.
+<noscript></noscript> Tag is a subtag of head tag and body tag.
+
+<!DOCTYPE HTML>
+	<head>
+		<title>ExcelrClasses</title>
+		<script>
+			document.write("welcome")
+		</script>
+	</head>
+	<body>
+		<noscript>
+			Browser not supports
+		</noscript>
+	</body>
+</HTML>
+
+=================================================================================================================================================================
+<marquee></marquee> Tag
+========================
+1.<marquee></marquee> Tag is a paired tag.
+2.<marquee></marquee> Tag is used to scroll the content.
+3.Bydefault in right to left.
+
+Attributes
+===========
+direction============>is used to set direction for content
+scrollamount=========>is used to set speed for content
+
+<!DOCTYPE HTML>
+	<head>
+		<title>ExcelrClasses</title>
+	</head>
+	<body>
+		<marquee direction="down" scrollamount=100>Hello world</marquee>
+	</body>
+</HTML>
+==================================================================================================================================================================
+<iframe></iframe> Tag
+=====================
+1.<iframe></iframe> Tag is a paired tag.
+2.<iframe></iframe> Tag is used to load google maps,youtube videos,local files,local pdfs....... in frame format.
+
+Attributes
+-----------
+width
+height
+src
+
+load google maps
+----------------
+Google=====>Google Maps======>Excelr Address in serach bar=========>share========>embed========>copy html code=======>paste in html code
+
+load youtube video
+------------------
+Youtube=====>Excelr video=====>share=======>Embed========>copy html code=======>paste in html code
+
+
+
+<!DOCTYPE HTML>
+	<head>
+		<title>ExcelrClasses</title>
+	</head>
+	<body>
+		<iframe width="200" height="200"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.193892645683!2d78.37833517493628!3d17.450431483447513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93dd601d7f63%3A0x46d29b403e99354!2sExcelR!5e0!3m2!1sen!2sin!4v1721365344687!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe width="200" height="200" src="https://www.youtube.com/embed/znijFGYNjmA?si=m8PPGU5Er1x0uKG_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+	</body>
+</HTML>
+======================================================================================================================================================================
+
+Blocklevel elements
+===================
+The elements which will print line by line(vertically) is called blocklevel elements.
+
+Ex
+--
+<p></p>                <dl>                    <nav>               <tfoot>          <fieldset>
+<h1..></h1...>         <dt>                    <noscript>          <figure>         <figcaption>
+<hr>                   <ol>                    <section>           <footer>         <address>
+<li>                   <pre>                   <video>             <form>           <article>
+<dd>                   <table>                 <div>               <main>           <aside>
+
+<!DOCTYPE HTML>
+	<head>
+		<title>ExcelrClasses</title>
+	</head>
+	<body>
+		<p>Baahubali made by rajamouli</p>
+		<p>Rangastalam made by sukumar</p>  <p>Pushpa made by sukumar</p>
+
+
+	</body>
+</HTML>
+
+Inline elements
+=================
+The elements which will print in same line(horizontally) is called inline elements.
+
+Ex
+--
+<i></i>           <img>           <input>
+<b></b>           <br>            <label>
+<strong>          <a>             <script>
+<sub>             <button>        <select>
+</sup>            <code>          <span>
+
+
+<!DOCTYPE HTML>
+	<head>
+		<title>ExcelrClasses</title>
+	</head>
+	<body>
+		<i>Baahubali made by rajamouli</i>
+		<i>Rangastalam made by sukumar</i>  <p>Pushpa made by sukumar</p>
+
+
+	</body>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

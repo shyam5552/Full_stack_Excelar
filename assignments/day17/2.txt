@@ -1,0 +1,13 @@
+question for day2
+-----------------
+1)What are the primary architectural differences between web applications and mobile applications?
+Ans: basically web applications are used in browsers and mobile applications are used in operating systems. 
+web applications are platform independent and mobile applications are platform dependent.
+
+-for web applications the screen size is large compare to mobile applications
+.
+-we can not see the url in mobile applications & er can't share any url in mobile applicatoins.
+ 
+ 
+
+2)How do the roles and skill sets of a web designer differ from those of an HTML developer?

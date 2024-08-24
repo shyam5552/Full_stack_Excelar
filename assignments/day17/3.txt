@@ -1,0 +1,5 @@
+question for day3
+-----------------
+1)How do semantic tags differ from non-semantic tags, and why are they important in web development?
+2)What are the differences between block-level, inline, and inline-block elements, and how do these differences impact page layout and design?
+3)What are global attributes in HTML, and how do they differ from element-specific attributes?

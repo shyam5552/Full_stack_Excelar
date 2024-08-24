@@ -1,0 +1,177 @@
+FONT PROPERTY
+=============
+1.font property is used to apply the style,weight,size and family to the html elements.
+2.There are 4 types of properties.They are
+
+     1.font-style	:normal/italic/oblique
+     2.font-weight	:normal/bold
+     3.font-size	:20px/30px/40px....
+     4.font-family	:Arial/courier/serif/"Times New Roman....
+
+3.shorthand property
+----------------------
+font: font-style font-weight font-size font-family;
+
+
+<!DOCTYPE HTML>
+	<head>
+		<style>
+			p{
+				font-family:arial;
+				font-style:italic;
+				font-weight:bold;
+				font-size:40px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<p>A.R. Rahman is known for his extensive body of work for film and stage, for his stylistic range as a composer, and for his integration of assorted styles of music in his compositions. His most widely known score, for the 2008 film Slumdog Millionaire, earned him BAFTA, Golden Globe, Academy, and Grammy awards.24 Jun 2024</p>
+	</body>
+</HTML>
+
+========================================================================================================================
+Text property
+=============
+Text property is used to apply following things.They are
+
+1.text-align    		:left/right/center/justify
+2.text-indent   		:px
+3.text-spacing  		:px
+4.text-height   		:px
+5.word-spacing  		:px
+6.line-height   		:px
+7.text-trasnform		:lowercase/uppercase
+8.text-decoration-line		:overline/underline/line-through
+9.text-decoration-style		:solid/dashed/dotted/wavy
+10.text-decoration-thickness	:px
+11.text-decoration-color	:color-name/hexadecimal......
+12.text-shadow			:X_PX Y_PX blur-effection(px) color-name......
+
+
+<!DOCTYPE HTML>
+	<head>
+		<style>
+			#d1{
+				font-size:40px;
+				font-weight:bold;
+				text-align:center;
+				text-transform:uppercase;
+				text-decoration-line:underline;
+				text-decoration-style:wavy;
+				text-decoration-thickness:5px;
+				text-decoration-color:red;
+				
+			   }
+			#d2{
+				font-sixe:20px;
+				font-weight:bold;
+				text-align:justify;
+				text-indent:50px;
+				letter-spacing:5px;
+				word-spacing:5px;
+				line-height:30px;
+			   }
+						
+		</style>
+	</head>
+	<body>
+		<div id="d1">web technologies</div>
+		<div id="d2">A.R. Rahman is known for his extensive body of work for film and stage, for his stylistic range as a composer, and for his integration of assorted styles of music in his compositions. His most widely known score, for the 2008 film Slumdog Millionaire, earned him BAFTA, Golden Globe, Academy, and Grammy awards.24 Jun 2024A.R. Rahman is known for his extensive body of work for film and stage, for his stylistic range as a composer, and for his integration of assorted styles of music in his compositions. His most widely known score, for the 2008 film Slumdog Millionaire, earned him BAFTA, Golden Globe, Academy, and Grammy awards.24 Jun 2024A.R. Rahman is known for his extensive body of work for film and stage, for his stylistic range as a composer, and for his integration of assorted styles of music in his compositions. His most widely known score, for the 2008 film Slumdog Millionaire, earned him BAFTA, Golden Globe, Academy, and Grammy awards.24 Jun 2024</div>
+	</body>
+</HTML>
+=========================================================================================================================
+Gradients
+=========
+1.The process of applying multiple colors and directions with smooth transition.
+2.There are 3 types of gradients.They are
+     1.Linear gradient
+     2.Radial gradient
+     3.conic gradient
+
+
+ 1.Linear gradient
+--------------------
+1.linear-gradient(direction,color1,color2......)
+2.linear-gradient(angle,color1,color2.......)
+3.linear-gradient(rgb(),rgb(),rgb())
+4.repeating-linear-gradient(direction,color1,color2.....)
+
+
+1.direction
+------------
+1.to bottom(bydefault)
+2.to right
+3.to bottom right
+
+
+2.angle
+-------
+45 deg
+90 deg
+
+
+3.transparency
+---------------
+rgb(IR,IG,IB,T)
+
+
+Intensity of red,green,blue is 0 to 255
+T--->Transparency(0 to 1)
+0---->full transparency
+1---->no transparency
+
+
+4.repeating-linear-gradient(direction,color1,color2....)
+
+
+<!DOCTYPE HTML>
+	<head>
+		<style>
+			#g1{
+				height:300px;
+				width:600px;
+				background-image:linear-gradient(to bottom,orange,white,green);
+				background-image:linear-gradient(90deg,orange,white,green);
+				background-image:linear-gradient(rgb(255,0,0,0.5),rgb(0,255,0,0.7),rgb(0,0,255,0.8));
+				background-image:repeating-linear-gradient(to bottom,red,green 10%,blue);
+
+
+
+
+
+			}
+									
+		</style>
+	</head>
+	<body>
+		<h1 id="g1">Linear gradient</h1>
+	</body>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

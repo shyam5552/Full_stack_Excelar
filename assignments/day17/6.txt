@@ -1,0 +1,21 @@
+question for 6th day
+--------------------
+Question 1: Using New Structural Elements and Form Controls
+Create an HTML5 webpage that includes the following:
+
+Use <article>, <header>, <footer>, <nav>, and <section> to structure content.
+Implement form controls for calendar, date, time, email, URL, and search inputs.
+
+Question 2: Embedding Multimedia and Client-Side Data Storage
+Design an HTML5 page with:
+
+<audio> and <video> elements to embed audio and video respectively.
+Use <svg> or <canvas> for graphical content.
+Implement client-side storage (local storage or session storage) to store user preferences.
+
+Question 3: Interactive Document with HTML5 APIs and Validation Attributes
+Create a dynamic HTML5 document that:
+
+Utilizes HTML5 Geolocation API to display the user's current location.
+Implements HTML5 Drag and Drop API for interactive file uploading.
+Includes form elements with HTML5 validation attributes such as required, pattern, min, max, etc., for validating user inputs.

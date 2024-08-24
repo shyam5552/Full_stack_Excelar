@@ -1,0 +1,5 @@
+question for 4th day
+--------------------
+1)How do you create a table with headers and multiple rows, and how do you style it using CSS?
+2)How can you embed a video in an HTML document that starts playing automatically and loops indefinitely?
+3)How do you create an internal navigation system within a single HTML page using hash-based navigation?

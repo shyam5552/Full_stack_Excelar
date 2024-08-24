@@ -1,0 +1,10 @@
+question for 5th day
+---------------------
+Question 1: Simple Form Creation
+Create an HTML form that captures user details such as name, email, and a checkbox for agreeing to terms. Ensure it submits data to submit.php using the POST method.
+
+Question 2: File Upload Form
+Design a form that allows users to upload a file. Ensure the form has appropriate attributes for handling file uploads and submits data to upload.php.
+
+Question 3: Dropdown Selection Form
+Construct a form with a dropdown list (<select>) of three options: "Apples", "Oranges", and "Bananas". On submission, display a message based on the user's selection.

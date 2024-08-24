@@ -1,0 +1,329 @@
+HTML
+====
+1.HTML stands for Hyper Text Markup Language.
+2.HTML was introduced by Tim Berners Lee.
+3.By using HTML we can develop static webpages.
+4.HTML files must be saved by .html or .htm extension
+5.To develop Ui technologies visual studio code is suggestable.
+6.HTML is case sensitive
+6.we will develop webpages by using browsers.
+   Ex:Google chrome,Firefox.........
+======================================================================================================================
+structure of HTML CODE
+======================
+<!DOCTYPE Html>
+	<head>
+	</head>
+	<body>
+	</body>
+</Html>
+
+
+Doctype
+=======
+1.Doctype is representing the version of Html.
+2.we will represent HTML 5 with the help of DOCTYPE.
+
+<HTML>
+</HTML>
+=======
+<HTML></HTML> is used to represent the root tag.
+
+<HEAD>
+</HEAD>
+========
+<HEAD></HEAD> is used to represent meta data.
+
+Ex
+--
+title
+author
+language
+
+<BODY>
+</BODY>
+=======
+<BODY></BODY> is used to represent main content.
+
+Ex
+--
+images
+paragraphs
+Text..........................
+===========================================================================================================================
+
+Tags
+====
+1.Tag is a word and enclosed with angular braces.
+2.The purpose of tag is used to give command/instruction to the content.
+3.There are 2 types of tags.They are
+    1.paired tags
+    2.Unpaired tags
+
+
+1.paired tags
+==============
+A tag which contains both opening tag and closing tag.
+
+Ex
+--
+1.<html></html>
+2.<p></p>
+3.<h1></h1>......
+
+
+
+2.Unpaired tags
+================
+A tag which contains either opening tag or closing tag.
+
+Ex
+--
+</img> 
+<br>
+<input>............
+
+===================================================================================================================
+Formatting tags
+===============
+Formatting tags are used to display the content in different format.
+
+
+Ex
+--
+   1.heading tag
+   2.paragraph tag
+   3.superscript tag
+   4.subscript tag
+   5.break tag
+   6.bold tag
+   7.italic tag
+   8.delete tag
+   9.underline tag
+   10.marquee tag
+
+
+ 1.heading tag
+===============
+1.heading tag is a paired tag.
+2.heading tag is used to print headings.
+
+Ex
+--
+  <h1></h1>
+  <h2></h2>
+  <h3></h3>
+  <h4></h4>
+  <h5></h5>
+  <h6></h6>
+
+<!DOCTYPE HTML>
+	<head>
+    	</head>
+
+	<body>
+      		<h1>UI TECH</h1>
+       		<h2>UI TECH</h2>
+      		<h3>UI TECH</h3>
+      		<h4>UI TECH</h4>
+      		<h5>UI TECH</h5>
+      		<h6>UI TECH</h6>
+   	</body>
+</HTML>
+
+2.paragraph tag
+===============
+1.paragraph tag is a paired tag.
+2.paragraph tag is used to represent paragraphs.
+
+Ex
+--
+<p>
+</p>
+
+<!DOCTYPE HTML>
+	<HEAD>
+	</HEAD>
+	<BODY>
+      		<p>Koduri Srisaila Sri Rajamouli is an Indian director and screenwriter who primarily works in Telugu cinema. He is known for his epic, action and fantasy 		   genre films. He is the highest grossing Indian director of all time, as well as the highest-paid director in India. 
+           	</p>
+       </BODY>
+</HTML>
+
+3.superscript tag
+==================
+1.superscript tag is a paired tag.
+2.superscript tag is used to represent powers.
+
+Ex
+--
+<sup>
+</sup>
+
+<!DOCTYPE HTML>
+	<HEAD>
+	</HEAD>
+	<BODY>
+          a<sup>2</sup>   +   b <sup>2</sup> + 2ab
+       </BODY>
+</HTML>
+
+
+4.subscript tag
+===============
+1.subscript tag is a paired tag.
+2.subscript tag is used to represent base values.
+
+Ex
+--
+<sub>
+</sub>
+
+<!DOCTYPE HTML>
+	<HEAD>
+	</HEAD>
+	<BODY>
+          H <sub>2</sub> so <sub>4</sub>
+    	</BODY>
+</HTML>
+
+
+5.break tag
+============
+1.break tag is a unpaired tag.
+2.break tag is used to break the line.
+
+Ex
+--
+<br>
+
+6.bold tag
+===========
+1.bold tag is a paired tag.
+2.bold tag is used to represent the content in bold format.
+
+Ex
+--
+<b>
+</b>
+
+7.italic tag
+===========
+1.italic tag is a paired tag.
+2.italic tag is used to represent the content in slight bend.
+
+Ex
+--
+<i>
+</i>
+
+8.delete tag
+=============
+1.delete tag is a paired tag.
+2.delete tag is used to represent line on the content.
+
+Ex
+--
+<del>
+</del>
+
+9.underline tag
+===============
+1.underline tag is a paired tag.
+2.underline tag is used to give underline for content.
+
+Ex
+--
+<u>
+</u>
+
+<!DOCTYPE HTML>
+	<HEAD>
+	</HEAD>
+	<BODY>
+      		<b>Virat Kohli</b> <br>
+      		<i>Virat Kohli</i> <br>
+      		<del>Virat Kohli</del> </br>
+      		<u>Virat Kohli</u>
+    	</BODY>
+</HTML>
+
+10.marquee tag
+==============
+1.marquee tag is a paired tag.
+2.marquee tag is used to scroll the content.
+3.Bydefault it is going to scroll the content from right to left.
+
+Ex
+---
+<marquee>
+</marquee>
+
+<!DOCTYPE HTML>
+	<HEAD>
+	</HEAD>
+	<BODY>
+      <marquee>pawankalyan</marquee>
+    </BODY>
+</HTML>
+
+
+Difference between tag,element and attribute.
+
+tag is a word and enclosed with angular braces and tag is used to give instruction/command to the content.
+element is a collection of opening tag,content and closing tag.
+attribute is present in opening tag and attribute is used to additional information to the element.
+
+Ex
+--
+<h1>====================>opening tag
+</h1>===================>closing tag
+This is a blue heading==>content
+color:blue==============>attribute
+
+
+<h1 style="color: blue;">This is a blue heading</h1>==========>Element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

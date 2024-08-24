@@ -1,0 +1,21 @@
+question for day1
+-----------------
+1)What are the key components and technologies involved in a Fullstack web development setup?
+Ans: The Full stack development involves the complete development of the application.
+     In full stack development there are some key components are there. mainly it divided into frontend development, API development, Database.
+	In frontend we use HTML,CSS, JavaScript and some frontend frameworks like reactjs and angular.
+	In API development we develop the Business logics and API's using languages like java.
+	Database is used to store and manage the data.	
+2)How does modern web development address the challenges of security, scalability, and performance?
+
+	Answer:
+		-by bringing the the updated features and versions.
+		-In modern web development we are using HTTPS for ensuring the security.
+		-modern frameworks are came to simplify the development and save the development time.
+		-
+
+
+
+
+
+	

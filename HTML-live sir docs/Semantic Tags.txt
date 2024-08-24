@@ -1,0 +1,196 @@
+Semantic Tags
+=============
+1.The tags which contains meaning is called semantic tags.
+2.The purpose of Semantic Tags is to give simple and clear meaning to the browser and developer.
+3.Semantic Tags are introduced in HTML 5 version.
+
+Ex
+--
+1.<audio></audio>=============>used to load audio file
+2.<video></video>=============>used to load video file
+3.<figure></figure>===========>used to give image.
+4.<figcaption></figcaption>===>used to give caption for image
+5.<summary></summary>=========>used to create arrow symbol for term.
+6.<details></details>=========>used to give definition for term.
+7.<header></header>===========>used to write headings for webpage
+8.<nav></nav>=================>used to create hyper links
+9.<footer></footer>===========>used to footer content like copyrights,authorship information.
+10.<aside></aside>============>used to write advertisements either in left or right side.
+11.<section></section>========>used to create sections as main content of webpage.
+12.<article></article>========>used to give important information of webpage.
+13.<main></main>.............=>used to main content of webpage
+
+Note:The above mention all tags are paired tags.
+
+
+<!DOCTYPE HTML>
+	<head>
+		<title>Semantic Tags</title>
+	</head>
+	<body>
+		<audio controls>
+       			 <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    		</audio>
+    		<video controls width="600">
+        		<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    		</video>
+
+		<figure>
+        		<img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_					80/lsci/db/PICTURES/CMS/348100/348106.jpg" width="600" height="400">
+        		<figcaption>Virat is a goat</figcaption>
+    		</figure>
+
+		<details>
+			<summary>JavaFullStack</summary>
+				<p>JavaFullStack conatins 4 modules programming language,uitechnologies,database and framework</p>
+		</details>
+
+	</body>
+</HTML>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excelr Edtech Pvt Limited</title>
+    <style>
+        aside {
+            float: right;
+            border: 1px solid black;
+            display: inline-block;
+            padding: 10px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        article {
+            float: left;
+            width: 200px;
+            margin: 10px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        section {
+            clear: both;
+            margin-bottom: 20px;
+        }
+        footer {
+            clear: both;
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid black;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Excelr Edtech Pvt Limited</h1>
+        <nav>    
+            <a href="#">Home</a>
+            <a href="#">Register</a>
+            <a href="#">Login</a>
+            <a href="#">About us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <aside>
+        <nav>
+            <a href="#">Java Fullstack</a><br>
+            <a href="#">Python Fullstack</a><br>
+            <a href="#">Data Science</a><br>
+            <a href="#">Data Analytics</a>
+        </nav>
+    </aside>
+    <main>
+        <section>
+            <h2>Java Fullstack</h2>
+            <article>
+                <h3>Java</h3>
+                <p>Learn Java programming language.</p>
+            </article>
+            <article>
+                <h3>MySQL</h3>
+                <p>Master MySQL database management.</p>
+            </article>
+            <article>
+                <h3>UI Technology</h3>
+                <p>Build user interfaces with modern technologies.</p>
+            </article>
+            <article>
+                <h3>Spring Boot</h3>
+                <p>Develop robust backend applications with Spring Boot.</p>
+            </article>
+        </section>
+        
+        <section>
+            <h2>Python Fullstack</h2>
+            <article>
+                <h3>Python</h3>
+                <p>Learn Python programming language.</p>
+            </article>
+            <article>
+                <h3>MySQL</h3>
+                <p>Master MySQL database management.</p>
+            </article>
+            <article>
+                <h3>UI Technology</h3>
+                <p>Build user interfaces with modern technologies.</p>
+            </article>
+            <article>
+                <h3>Django</h3>
+                <p>Develop robust backend applications with Django.</p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        &copy; Excelr Edtech Pvt Limited
+    </footer>
+
+   </body>
+</html>
+==========================================================================================================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

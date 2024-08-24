@@ -1,0 +1,338 @@
+JavaScript Introduction
+========================
+1.Javascript is a scripting language.
+2.Father of JavaScript is Brendan Eich.
+3.Javascript was introduced by Netscape communications in 1995.
+4.Javascript is used to develop dynamic webpages.
+5.Javascript files must be save with .js extension.
+6.Javascript is a case sensitive language.
+7.Javascript 1st version is  ES1.
+8.Javascript current version is ES15(ECMA SCRIPT 2024)(European computer Manufactures Association).
+
+
+static webpages
+---------------
+The webpage content will be same for multiple users.
+
+
+dynamic webpages
+-----------------
+The webpage content will be different for multiple users.
+--------------------------------------------------------------------------------------------------------------------
+Basic program in javascript
+===========================
+1.document.write();==============>is used to display the output in browser.
+2.getElementById().innerHTML();==>is used to display the output in browser based on id names.
+3.window.alert();================>is used to display the output in dialog box.
+4.console.log();=================>is used to display the output in console. (ctlr+shift+j)
+
+
+document.write("Hello good morning");
+document.getElementById("par1").innerHTML="Navadeep is a good student"; <b id="par1"></b>
+window.alert("How are you");
+console.log("Bye Bye");
+--------------------------------------------------------------------------------------------------------------------
+Internal javascript program
+---------------------------
+The process of writing javascript code in Html file is called internal javascript program.
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<script>
+			document.write("Hello");
+		</script>
+	</body>
+</HTML>
+
+External javascript program
+---------------------------
+The process of writing javascript code in separate file and we have link with Html file is called external javascript program.
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<script src="sample.js" type="text/javascript">
+		</script>
+	</body>
+</HTML>
+
+document.write("Arey babu please listen");
+======================================================================================================================
+
+comments
+========
+1.comments are used to ignore the code.
+2.There are 2 types of comemnts.They are
+     1.single line comments(//)
+     2.Multi line comments(/*  */)
+
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<script>
+			// document.write("Hello");
+
+
+			/* document.write("Bye");
+			document.write("How are you"); * /
+
+		</script>
+	</body>
+</HTML>
+=========================================================================================================================
+variables
+=========
+1.A variable is a container.
+2.The variable is used to store operand.
+3.Operand can be a value,expression,variable
+
+variable initialization syntax
+-------------------------------
+var varname = operand;
+
+var  a=55;
+console.log(a);=====>55
+
+
+variable declaration syntax
+--------------------------
+var varname;
+varname=operand;
+
+var  a;
+a=55;
+console.log(a);=====>55
+=======================================================================================================================
+Rules
+=====
+1.A variable must be a alphabet(a-z)(A-Z),digit(0-9) and special symbols(_,$).
+2.A variable 1st letter must not starts with digit(0-9).
+3.A variable does not allow special symbols except (_,$).
+4.keywords does not use as variables.
+5.variables are case sensitive.
+6.true,false are not keywords but donot use as variables.
+
+
+Note:variables must be defined in ways.They are
+        1.var
+        2.let
+        3.const
+
+
+1.var
+======
+1.var keyword is introduced in ES1.
+2.Duplicate variable names are allowed.
+3.variable hositing raised.
+4.we can modify values in var keyword.
+5.Must not be initialize in var keyword.
+6.var members are functional scope or global scope.
+
+2.let
+======
+1.let keyword is introduced in ES6.
+2.Duplicate variable names are not allowed.
+3.variable hositing is not raised .
+4.we can modify values in let keyword.
+5.Must not be initialize in let keyword.
+6.let members are block scope or local scope.
+
+3.const
+=======
+1.const keyword is introduced in ES6.
+2.Duplicate variable names are not allowed.
+3.variable hositing is not raised .
+4.we cannot modify values in const keyword.
+5.Must  be initialize in const keyword.
+6.const members are block scope or local scope.
+
+
+Examples
+=========
+1.<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<script>
+			var aDb6_$=22;
+			document.write(aDb6_$);===============>22
+		</script>
+	</body>
+</HTML>
+
+2.var 7bc=22;
+document.write(7bc);===============>error
+
+3.var _ab=22;
+document.write(_ab);===============>22
+
+4.var ab*=22;
+document.write(ab*);===============>error
+
+5.var a&@_b=22;
+document.write(a&@_b);============>error
+
+6.var if=22;
+document.write(if);===============>error
+
+7.var for=22;
+document.write(for);=============>error
+
+8.var true=22;
+document.write(true);============>error
+
+9.var a=22;
+document.write(A);==============>error
+
+10.var True=22;
+document.write(True);===========>22
+-------------------------------------------------------------------------------------------------------------------
+var a=34;
+var a=89;
+document.write(a);=========>89
+
+let a=34;
+let a=89;
+document.write(a);=========>error
+
+const a=34;
+const a=89;
+document.write(a);=========>error
+
+
+document.write(a);==========>undefined
+var a=23;
+
+document.write(a);===========>error
+let a=23;
+
+document.write(a);===========>error
+const a=23;
+
+
+var a=5;
+a=100;
+document.write(a);==============>100
+
+let a=5;
+a=100;
+document.write(a);==============>100
+
+
+const a=5;
+a=100;
+document.write(a);=============>error
+
+
+var a;
+document.write(a);=====>undefined
+
+let a;
+document.write(a);=====>undefined
+
+
+const a;
+document.write(a);=========>error
+====================================================================================================================
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<script>
+			var a=12;
+			console.log(a);
+		</script>
+	</body>
+</HTML>
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<script>
+			var a=2+3;
+			console.log(a);
+		</script>
+	</body>
+</HTML>
+
+<!DOCTYPE HTML>
+	<head>
+	</head>
+	<body>
+		<script>
+                        var a=100;
+			var b=a;
+			console.log(b);
+		</script>
+	</body>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     

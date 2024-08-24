@@ -1,0 +1,182 @@
+<div></div> Tag
+================
+1.<div></div> Tag is a paired tag.
+2.<div></div> Tag is used to divide the webpage into multiple sections.
+3.<div></div> Tag is a block level tag.
+
+
+<span></span> Tag
+================
+1.<span></span> Tag is a paired tag.
+2.<span></span> Tag is used to divide the webpage into multiple sections.
+3.<span></span> Tag is a inline tag.
+
+<!DOCTYPE HTML>
+	<head>
+		<title>Div & Span Tag</title>
+	</head>
+	<body>
+		<div style="background-color:red">
+			Lokesh
+		</div>
+		<div style="background-color:red">
+			Atlee
+		</div>
+
+		<span style="background-color:green">
+			vetrimaran
+		</span>
+		<span style="background-color:green">
+			Ranjith
+		</span>
+
+
+	</body>
+</HTML>
+
+
+<!DOCTYPE HTML>
+	<head>
+		<title>Div & Span Tag</title>
+	</head>
+	<body>
+		<div style="border:1px solid black;background-color:orange">
+			Hindus
+		</div>
+		<div style="border:1px solid black;background-color:white">
+			Chirstians
+		</div>
+		<div style="border:1px solid black;background-color:green">
+			Muslims
+		</div>
+
+		<span style="border:1px solid black;background-color:orange">
+			Hindus
+		</span>
+		<span style="border:1px solid black;background-color:white">
+			Chirstians
+		</span>
+		<span style="border:1px solid black;background-color:green">
+			Muslims
+		</span>
+
+	</body>
+</HTML>
+=============================================================================================================================================
+Forms
+=====
+
+<FORM></FORM> Tag
+==================
+1.<FORM></FORM> Tag is a paired tag.
+2.<FORM></FORM> Tag is used to collect information/data from the users.
+                 (or)
+  <FORM></FORM> Tag is a collection of input values.
+
+<input> Tag
+===========
+1.<input> Tag is a unpaired tag.
+2.<input> Tag is used to collect input values(usernames,passwords,date,image,email,contactnumbers,address.....) from user.
+3.<input> Tag is a inline element.
+
+
+type="text"===============>is used to take single word/input.
+type="password"===========>is used to take passwords.
+type="file"===============>is used to take files.
+type="date"===============>is used to take date.
+type="radio"==============>selecting one value among multiple options.
+type="checkbox"===========>selecting multiple values among multiple options.
+type="submit"=============>is used to submit the form.
+type="reset"==============>is used to reset the form.
+type="button"=============>it will create button and won't submit the form.
+
+
+<select></select> Tag
+======================
+1.<select></select> Tag is a paired tag.
+2.<select></select> Tag is used to create drop down list.
+
+<option<</option> Tag
+=====================
+1.<option<</option> Tag is a paired tag.
+2.<option<</option> Tag is a sub tag of <select></select> Tag.
+3.<option<</option> Tag is used to create number of options for <select></select> Tag.
+
+
+<!DOCTYPE HTML>
+	<head>
+		<title>Forms</title>
+	</head>
+	<body>
+		<h1>Registration Form</h1>
+		<form>
+			Username:<input type="text" name="uname" value="enter uname" maxlength="5"><br><br>
+			Password:<input type="password" name="pwd"><br><br>
+			
+			<h1>Gender</h1>
+			<input type="radio" name="gen" checked="checked">Male <br>
+			<input type="radio" name="gen" >Female
+
+			<h1>Hobbies</h1>
+			<input type="checkbox">Playing  <br>
+			<input type="checkbox">singing  <br>
+			<input type="checkbox">Reading  <br>
+
+			<h1>Date of Birth</h1>
+			Date of Birth:<input type="date" name="dob"><br><br>
+
+			<h1>Upload Resume</h1>
+			<input type="file" name="res" accept=".jpg"><br><br>
+
+			<h1>Address</h1>
+			<textarea rows="5" cols="15"></textarea>
+		
+			<h1>Courses</h1>
+			<select name="courses" value="Python">
+				<option>java</option>
+				<option value="python" selected>python</option>
+				<option>c</option>
+				<option>cpp</option>
+			</select> <br><br>
+
+			<input type="submit" name="submit" value="Register"><br><br>
+			<input type="reset" name="reset" value="Reset"><br><br>
+			<input type="button" name="button" value="Click Me"><br><br>
+			
+
+			
+
+			
+
+		</form>
+	</body>
+</HTML>
+=====================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
