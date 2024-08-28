@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    /* margin-top: 10px; */
+    padding:100px 300px;
+}
+#todo-app{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    padding: 10px;
+    
+}
+.input-row{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+input{
+    width: 80%;
+    height: 100%;
+}
+button{
+    width: 20%;
+    height: 100%;
+}
+ul{
+    list-style: none;
+    
+
+}
+li{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remove-button{
+    width: 20px;
+    height: 20px;
+    background-image: url(./capture_20240828224531456.bmp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.remove-button:hover{
+    cursor: pointer;
+
+}
